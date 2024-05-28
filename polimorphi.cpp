@@ -30,7 +30,7 @@ int main() {
 
     obyek = &a;
     obyek->pesan();
-    obyek = &b
+    obyek = &b;
     obyek->pesan();
     //seseorang::pesan();
     return 0;
