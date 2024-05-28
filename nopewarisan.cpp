@@ -14,3 +14,9 @@ class derivedClass : public baseClass {
         cout << "hello saya fucntion dari derived class";
     }
 };
+
+int main() {
+    derivedClass a;
+    a.perkenalan();
+    return 0;
+}
