@@ -5,7 +5,7 @@ class seseorang {
     public:
     virtual void pesan() = 0;
     //virtual void pesan(){
-     //   cout << "pesan dari seseorang" << endl;
+     //cout << "pesan dari seseorang" << endl;
     //}
 };
 
@@ -25,4 +25,14 @@ class lia : public seseorang {
 
 int main() {
     seseorang* obyek;
+    joko a;
+    lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b
+    obyek->pesan();
+    //seseorang::pesan();
+    return 0;
+
 }
