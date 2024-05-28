@@ -22,7 +22,7 @@ class pekerja : public orang {
     }
 };
 
-class pelajar : public orang {
+class pelajar : public orang { 
     public:
 
     pelajar(int pUmur) :
